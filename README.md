@@ -28,4 +28,6 @@ Open [http://localhost:3000](http://localhost:3000) in your browser
 ### Limitations:
 * No type-checking - I usually use TypeScript for all new projects but I prioritized UX over 
 * No state management library - Since the app was limited in scope I chose to stick with React component state as opposed to something like Redux.
+* No persistent state - the React app fetches from a simple backend API then simply updates in memory. 
+* Validation - Only simple HTML validation right now (e.g., type=number for numerical fields).
 * Theme - I used Material-UI's theming system since it has sensible defaults and matching the styles from the mocks would take a lot more time without providing a much additional utility.
